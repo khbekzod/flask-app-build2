@@ -22,5 +22,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true                                                 # docker build -t khbekzod/flask-app:1.0.0          
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-app:1.0.0    # docker push khbekzod/flask-app:1.0.0
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/flask-app:1.0.0    # docker push khbekzod/flask-app:1.0.00
 
